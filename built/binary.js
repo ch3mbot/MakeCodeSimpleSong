@@ -477,7 +477,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P44843(s) {
+function _main___P44890(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -35406,13 +35406,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P44843.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P44843.continuations = [  ]
+_main___P44890.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P44890.continuations = [  ]
 
-function _main___P44843_mk(s) {
+function _main___P44890_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P44843, depth: s.depth + 1,
+        parent: s, fn: _main___P44890, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -89190,5 +89190,5 @@ const music_PlayableState__C4545_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["midiNoteFrequencyMap___4333","timedNotes___4341","fullMidi___4334","tickRate___4339","lastNoteChange___4335","msPer16th___4337","totalMs___4338","noteIndex___4336","oldMelodSawA___6972","oldMelodSawB___6974"])
 
-return _main___P44843
+return _main___P44890
 })
